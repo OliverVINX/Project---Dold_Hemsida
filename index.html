@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fel</title>
+     <link rel="stylesheet" href="style.css">
+      <script src="./logic.js" defer></script>
+</head>
+<body>
+    
+    <h1 id="secretTitle">Välkommen</h1>
+
+    <p id="normalText">
+        Denna filen har tagits bort, vänligen återgå eller försök igen senare.
+    </p>
+
+    <section id="secretPage" style="display: none;">
+        <div class="secretHeader">
+            <h1>File_Storage</h1>
+            <button id="backButton">Tillbaka</button>
+        </div>
+
+        <p>Väkommen_till_dina_dålda_filer</p>
+
+        <a href="files/exempel.pdf" download>
+            ladda ner fil
+        </a>
+
+        <input type="file" id="fileInput">
+        <ul id="fileList"></ul>
+    </section>
+
+</body>
+</html>

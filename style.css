@@ -1,0 +1,33 @@
+.dark-mode {
+    background-color: #111;
+    color: white;
+}
+
+.dark-mode h1 {
+    color: rgb(33, 220, 20);
+}
+
+.secretHeader { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.secretHeader h1 {
+    margin: 0;
+}
+
+#backButton {
+    margin-left: auto;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: #111; 
+    color: white;
+}
