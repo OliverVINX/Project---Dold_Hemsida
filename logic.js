@@ -1,11 +1,17 @@
 const secretTitle = document.getElementById("secretTitle")
 const secretPage = document.getElementById("secretPage")
 const backButton = document.getElementById("backButton")
+const normalImage = document.getElementById("normalImage")
+const normalImage2 = document.getElementById("normalImage2")
+const normalLink = document.getElementById("normalLink")
 
 secretTitle.addEventListener("click", function  () {
     document.body.classList.add("dark-mode")
    secretTitle.style.display = "none"
    document.querySelector("body > p").style.display = "none"
+   normalLink.style.display = "none"
+   normalImage.style.display = "none"
+   normalImage2.style.display = "none"
    secretPage.style.display = "block"
 })
 
@@ -14,6 +20,9 @@ backButton.addEventListener("click", function ()  {
     secretPage.style.display = "none"
     secretTitle.style.display = "block"
     document.querySelector("body > p").style.display = "block"
+    normalImage2.style.display = "block"
+    normalImage.style.display = "block"
+    normalLink.style.display = "block"
 })
 
 const fileInput = document.getElementById("fileInput")
